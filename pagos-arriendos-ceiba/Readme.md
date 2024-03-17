@@ -1,16 +1,11 @@
-# Sistema de pagos de Arriendo (Prueba node ceiba)
+# Sistema de pagos de Arriendo
 
-Repositorio del api de la prueba de node para la empresa ceiba, en este se describiran las funcionalidades del API asi como también su puesta en marcha.
+Repositorio del api de la prueba de node, en este se describiran las funcionalidades del API asi como también su puesta en marcha.
 
 La aplicación fue desarrollada usando Node como entorno, express como framework para inicializar el servidor, sequelize como ORM para interactuar con la base de datos MySQL y JEST para realizar pruebas unitarias.
 
 ## Nota: el API se encuentra desplegada en el siguiente enlace
 <br>
-
-### Enlace del API: https://pruebaceiba-danimb.herokuapp.com/api/pagos
-
-<br>
-
 
 # Puesta en Marcha en desarrollo
 

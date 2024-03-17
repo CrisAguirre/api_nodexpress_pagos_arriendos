@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "c2d5f03c-03b1-4620-907d-a9817c40a240",
+		"name": "Arriendos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18057743"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8084/api/pagos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documentoIdentificacionArrendatario\": 36947851,\r\n    \"codigoInmueble\": \"8771781\",\r\n    \"fechaPago\": \"07/10/2020\",\r\n    \"valorPagado\": 2000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8084/api/pagos"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8084/api/pagos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8084/api/pagos"
+			},
+			"response": []
+		}
+	]
+}
