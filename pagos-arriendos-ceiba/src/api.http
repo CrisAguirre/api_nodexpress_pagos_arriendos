@@ -1,0 +1,13 @@
+### Recuperar información del pokemon ditto
+GET http://localhost:8084/api/pagos
+
+### Para crear un Pokemon
+POST http://localhost:8084/api/pagos
+Content-Type: application/json
+
+{
+    "documentoIdentificacionArrendatario": 36947858,
+    "codigoInmueble": "8771781",
+    "fechaPago": "07/10/2020",
+    "valorPagado": 1000000
+}
